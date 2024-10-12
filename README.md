@@ -16,13 +16,13 @@ pip install -r requirements.txt
 1. **Clone the repository:**
    
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/6rz6/cli-rich-menu
    ```
 
 2. **Navigate to the project directory:**
    
    ```bash
-   cd <project-directory>
+   cd cli-rich-menu
    ```
 
 3. **Run the script:**
@@ -44,7 +44,17 @@ The structure of the menu items is represented as a JSON array of objects:
 ```
 [
     {"name": "⭐ whisper", "value": "command to execute"},
-    {"name": ... },
+    {"name": "🔴 SearXNG Open Search", "value": "firefox 127.0.0.1:8081/"},
+    {"name": "🔴 Windmill Codeless webhooks", "value": "firefox 127.0.0.1"},
+    {"name": "🧡 DO-0-IP", "value": "ssh root@127.0.0.1 -i ~/.ssh/pk"},
+    {"name": "🧡 DO-0-DyIP", "value": "ssh root@127.0.0.1 -i ~/.ssh/pk"},
+    {"name": "🧡 sshr", "value": "ssh -l 127.0.0.1"},
+    {"name": "✨ fabric", "value": "~/fabric/fabric "},
+    {"name": "✨ fabric_extract_wisdom", "value": "~/fabric/fabric --pattern --extract_wisdom -s"},
+    {"name": "✨ fabric_extract_youtube", "value": "fb --stream --pattern extract_wisdom -y "},
+    {"name": "💚 nano_bashrc", "value": "nano ~/.bashrc"},
+    {"name": "💚 source_bashrc", "value": "source ~/.bashrc"},
+    {"name": "....."}
 ]
 ```
 Each object contains the following fields:
