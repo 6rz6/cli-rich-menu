@@ -4,14 +4,17 @@
 This project is a command line tool that allows users to navigate through a menu of commands and execute them.
 
 ## Description
-The Rich Menu Command Line Tool leverages Python's standard libraries to create an interactive user experience. Users can navigate a grid of commands using their keyboard.
+The Rich Menu Command Line Tool leverages Python's standard libraries 
+to create an interactive user experience. Users can navigate a grid of commands using their keyboard.
+
+![cli-rich-menu](https://github.com/user-attachments/assets/0d492ca1-c282-46b4-a760-94751ec1ae01)
 
 ## Installation Guide
 
 1. **Clone the repository:**
    
    ```bash
-   git clone https://github.com/6rz6/cli-rich-menu
+   git clone https://github.com/6rz6/cli-rich-menu.git
    ```
 
 2. **Navigate to the project directory:**
@@ -28,7 +31,7 @@ The Rich Menu Command Line Tool leverages Python's standard libraries to create 
 4. **Run the script:**
  
    ```bash
-   python rich-menu-col.py
+   -/menu.py
    ```
 ## Usage Guide
 
@@ -79,5 +82,5 @@ Additionally, columns in the menu are divided based on the emoticon at the start
 - After running the CLI command, the application may be called multiple times due to the menu receiving background keyboard input.
 
 ## Release Notes
-### Version 1.0.0
+### Version 1.0.1
 - Initial release of the Rich Menu Command Line Tool.
