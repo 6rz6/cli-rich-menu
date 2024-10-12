@@ -6,15 +6,6 @@ This project is a command line tool that allows users to navigate through a menu
 ## Description
 The Rich Menu Command Line Tool leverages Python's standard libraries to create an interactive user experience. Users can navigate a grid of commands using their keyboard.
 
-### JSON Structure
-The structure of the menu items is represented as a JSON object:
-```
-data: value
-```
-Where `data` represents the menu items and `value` represents the CLI command. Pressing enter will execute the corresponding command.
-
-Additionally, columns in the menu are divided based on the emoticon at the start of the data items.
-
 ## Installation Guide
 To install the necessary dependencies, run:
 ```bash
@@ -47,6 +38,20 @@ pip install -r requirements.txt
 
 5. **Default Command:**
    - The initial command selected by default is the **shell command**.
+
+### JSON Structure
+The structure of the menu items is represented as a JSON array of objects:
+```
+[
+    {"name": "⭐ whisper", "value": "command to execute"},
+    {"name": ... },
+]
+```
+Each object contains the following fields:
+- `name`: Represents the display name of the command, often including an emoticon.
+- `value`: Represents the CLI command to be executed when selected.
+
+Additionally, columns in the menu are divided based on the emoticon at the start of the data items.
 
 ## Functionality Overview
 - **get_input()**: Captures user keyboard input for menu navigation, supporting arrow keys and enter key for selection.
