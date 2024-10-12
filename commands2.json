@@ -40,7 +40,7 @@
     {"name": "💚 activate_pyenv", "value": "source ~/venvs/python_env/bin/activate"},
     {"name": "💚 get_virtual_env", "value": "echo $VIRTUAL_ENV"},
     {"name": "💚 docker_ps", "value": "docker ps"},
-    {"name": "💚 envt", "value": "env |grep \"API\" && env | grep \"TOKEN\" && env |grep \"RZ1\""},
+    {"name": "💚 envt", "value": "env |grep \"API\" && env | grep \"TOKEN\""},
     {"name": "💚 list_virtual_envs", "value": "ls ~/venvs && ls -la"},
     {"name": "💚 VNV_nmp", "value": "~/.local/share/pipx/venvs/nmp/bin/activate"},
     {"name": "💖 Open_interpreter", "value": "opin4 -y"},
