@@ -62,6 +62,12 @@ Additionally, columns in the menu are divided based on the emoticon at the start
 - **group_commands(commands)**: (Assumed) Groups commands into columns based on some criteria.
 - **render_menu(columns, selected_row, selected_col)**: Displays the command menu in a structured format, highlighting the selected item.
 
+## Known Issues
+- **Blinking** occurs when an arrow key is pressed.
+- Pressing **Enter** does not exit the menu cleanly.
+- The CLI command does not always execute successfully.
+- After running the CLI command, the application may be called multiple times due to the menu receiving background keyboard input.
+
 ## Release Notes
 ### Version 1.0.0
 - Initial release of the Rich Menu Command Line Tool.
